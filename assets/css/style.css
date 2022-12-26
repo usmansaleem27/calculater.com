@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Lato:wght@100&family=Source+Code+Pro&family=Source+Serif+Pro&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    background-image: linear-gradient(to right, rgb(46, 179, 219), rgba(79, 205, 228, 0.867), rgba(135, 135, 211, 0.867));
+}
+
+
+input{
+    width: 100%;
+    font-size: 20px;
+    margin: 0;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(202, 198, 198);
+
+}
+
+h1{
+    font-family: 'Source Code Pro', monospace;
+}
+
+.calc_buttons {
+    width: 100%;
+    padding: 20px;
+    margin: 0 3px;
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 50%;
+    font-family: 'Source Code Pro', monospace;
+    box-shadow: 5px 5px 5px rgb(202, 198, 198);
+}
+
+input:focus{
+    border: none;
+    outline: none;
+}
+
+.clear_button:hover{
+    background-color: #1d1d1d;
+    color: white;
+}
+
+.calc_buttons:hover{
+    background-color: #1d1d1d;
+    color: white;
+}
+
+.my_calculator{
+    background-color: rgb(238, 238, 238);
+    border-radius: 10px;
+}
